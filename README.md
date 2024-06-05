@@ -47,6 +47,10 @@ Bullet points:
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS**
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) **Figma**
 
+## Collaborators
+- Helene Flått Høgås (Helflaa)
+- Aksel Oldeide (AkselOldeide)
+
 
 # Project 3 - Agency1 (Frame Photography)
 
@@ -71,4 +75,11 @@ Bullet points:
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) **JavaScript**
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) **Figma**
 
+## Collaborators
+- Helene Flått Høgås (Helflaa)
+- Kenneth Sheikh (kanotten)
+- Berken Ates (BerkenA)
+- Patrick Røthe (PatrickRoethe)
 
+## Shout out to students at FED1 Noroff for letting me take their pictures!
+## And special thanks to Anette Therese Lindberg (elanetto) for lending me her wedding photos
