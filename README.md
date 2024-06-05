@@ -49,7 +49,7 @@ Bullet points:
 
 ## Collaborators
 - Helene Flått Høgås [Helflaa](https://github.com/Helflaa)
-- Aksel Oldeide ([AkselOldeide](https://github.com/AkselOldeide))
+- Aksel Oldeide [AkselOldeide](https://github.com/AkselOldeide)
 
 
 # Project 3 - Agency1 (Frame Photography)
