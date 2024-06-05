@@ -1,3 +1,5 @@
+## This is a portfolio1 that includes 3 of my projects during year 1 of my study at Noroff
+
 # Project 1 - SqaureEyes
 
 <img src="https://i.imgur.com/ceFQJ8x.png" alt="image" height="500px" width="auto">
