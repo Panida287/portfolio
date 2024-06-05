@@ -2,7 +2,7 @@
 
 # Project 1 - SqaureEyes
 
-<img src="https://i.imgur.com/ceFQJ8x.png" alt="image" height="500px" width="auto">
+<img src="https://i.imgur.com/ceFQJ8x.png" alt="image" height="400px" width="auto">
 
 This is a video streaming website that allows you to add movies to cart and check out.
 
@@ -27,7 +27,7 @@ Bullet points:
 
 # Project 2 - Semester Project 1 (Science Museum)
 
-<img src="https://i.imgur.com/sa30mb6.png" alt="image" height="500px" width="auto">
+<img src="https://i.imgur.com/sa30mb6.png" alt="image" height="400px" width="auto">
 
 This is a science Museum website project and it was a first group project that I worked with 3 people.
 
@@ -48,13 +48,13 @@ Bullet points:
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) **Figma**
 
 ## Collaborators
-- Helene Flått Høgås (Helflaa)
-- Aksel Oldeide (AkselOldeide)
+- Helene Flått Høgås [Helflaa](https://github.com/Helflaa)
+- Aksel Oldeide ([AkselOldeide](https://github.com/AkselOldeide))
 
 
 # Project 3 - Agency1 (Frame Photography)
 
-<img src="https://i.imgur.com/JAiMQjS.png" alt="image" height="500px" width="auto">
+<img src="https://i.imgur.com/JAiMQjS.png" alt="image" height="400px" width="auto">
 
 This is a photography website with booking and review system
 
@@ -76,10 +76,10 @@ Bullet points:
 - ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) **Figma**
 
 ## Collaborators
-- Helene Flått Høgås (Helflaa)
-- Kenneth Sheikh (kanotten)
-- Berken Ates (BerkenA)
-- Patrick Røthe (PatrickRoethe)
+- Helene Flått Høgås ([Helflaa](https://github.com/Helflaa))
+- Kenneth Sheikh ([kanotten](https://github.com/kanotten))
+- Berken Ates ([BerkenA](https://github.com/BerkenA))
+- Patrick Røthe ([PatrickRoethe](https://github.com/PatrickRoethe))
 
 ## Shout out to students at FED1 Noroff for letting me take their pictures!
 ## And special thanks to Anette Therese Lindberg (elanetto) for lending me her wedding photos
