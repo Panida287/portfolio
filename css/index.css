@@ -5,11 +5,11 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(117deg, #07575C 0%, #122536 12.93%, #6B4CE8 26.48%, #1F183A 40.06%, #050417 59.32%, #381654 74.49%, #742BA0 85.81%, #CA69C6 100%);
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    gap: 0;
 }
 
 .container {
@@ -18,25 +18,25 @@ body {
     border-radius: 24px;
     background: rgba(179, 219, 255, 0.39);
     box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.25);
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 1000px;
+    margin: 0 auto 40px auto;
 }
 
 .name-upright {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Alegreya SC', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 86px;
-    width: 100%;
+    height: 20px;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px auto 0 auto;
+    position: relative;
+    top: 10px;
     padding-right: 20px;
 }
 
@@ -44,51 +44,38 @@ body {
     color: #FAC6F8;
     text-align: center;
     font-family: 'Alegreya SC', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-shadow: 4px 4px 0 rgba(51, 170, 221, 0.46);
     transform: rotate(180deg) scaleX(-1);
-    height: 86px;
+    height: 43px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+    opacity: 0.5;
 }
 
 .contents {
     display: flex;
 }
 
-.box {
-    background-image: url("../assets/Group 4.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 600px;
-    width: 600px;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-}
-
 .picture {
-    background-image: url("../assets/picture.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 500px;
-    height: 600px;
-    position: absolute;
-    right: 0;
+    background: url("../assets/picture.png") center/contain no-repeat;
+    width: 40%;
     top: 100px;
 }
 
 .nav {
-    position: absolute;
-    left: 125px;
-    top: 220px;
+    background: url("../assets/Group 4.png") center/contain no-repeat;
+    height: 650px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -96,7 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .header p:first-child {
@@ -130,8 +117,100 @@ body {
     border: none;
     background: none;
     margin: 20px;
+    cursor: pointer;
 }
 
+.nav-list button::before,
+.nav-list button::after {
+    content: "";
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nav-list button::before {
+    content: "<";
+}
+
+.nav-list button::after {
+    content: "/>";
+}
+
+.nav-list button:hover::before,
+.nav-list button:hover::after {
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    .contents {
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-areas:
+        'picture'
+        'box'
+    }
+
+    .picture {
+        grid-area: picture;
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .nav {
+        grid-area: box;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .container {
+        width: 90%;
+    }
+
+    .name-upright {
+        width: 90%;
+    }
+}
+
+@media (max-width: 669px) {
+    .header p:first-child,
+    .header p:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .nav-list button {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .nav {
+        position: relative;
+        top: -80px;
+    }
+
+    .container {
+        height: 900px;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        width: 98%;
+        height: 850px;
+    }
+
+    .name-upright {
+        width: 98%;
+        font-size: 16px;
+    }
+
+    .name-upside-down {
+        font-size: 16px;
+        height: 35px;
+    }
+}
 
 
 
