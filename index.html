@@ -20,41 +20,121 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-
-<div class="name-upright">
-    <h1>Panida Paethanom</h1>
-</div>
-
-<div class="container">
-    <div class="name-upside-down">
+<div class="overlay"></div>
+<main>
+    <div class="name-upright">
         <h1>Panida Paethanom</h1>
     </div>
-    <div class="contents">
 
-        <div class="nav">
-            <div class="header">
-                <p>Designer</p>
-                <p>& coder</p>
-            </div>
-            <div class="nav-list">
-                <button id="aboutMe">
-                    About me
-                </button>
-                <button id="mySkill">
-                    My skills
-                </button>
-                <button id="myProject">
-                    My projects
-                </button>
-                <button id="howToContact">
-                    How to contact me
-                </button>
-            </div>
+    <div class="container">
+        <div class="name-upside-down">
+            <h1>Panida Paethanom</h1>
         </div>
-        <div class="picture"></div>
-    </div>
-</div>
-<div class="logo"></div>
+        <div class="contents">
 
+            <div class="nav">
+                <div class="header">
+                    <p>Designer</p>
+                    <p>& coder</p>
+                </div>
+                <div class="nav-list">
+                    <button id="aboutMe">
+                        About me
+                    </button>
+                    <button id="mySkill">
+                        My skills
+                    </button>
+                    <button id="myProject">
+                        My projects
+                    </button>
+                    <button id="howToContact">
+                        How to contact me
+                    </button>
+                </div>
+            </div>
+            <div class="picture"></div>
+        </div>
+    </div>
+    <div class="logo"></div>
+    <div id="aboutMeDialog">
+        <h3>about me</h3>
+        <p>
+            I am currently a first year front-end developer student at Noroff school of technology and digital media
+            <br>
+            <br>
+            My name is Panida Paethanom. I moved from Thailand to Norway in 2019, and I was a former chef. I usually
+            worked at 5-star hotels, fine-dining and michelin star restaurants for over 10 years but decided to change
+            my course completely.
+            <br>
+            <br>
+            Programming has been a passion that I’ve started to explore in my teen but life circumstances brought me to
+            a different path, but now I am ready to pursuit something I have left off and currently enjoying it!.
+            <br>
+            <br>
+            I believe that with many different skills, you can combine them and create something extraordinary, for
+            example, a lot of things in restaurant or cooking world itself can be digitalised. And I would love to
+            contribute to new inventions.
+            <br>
+            <br>
+            I also do photography as a hobby.
+        </p>
+        <button id="aboutMeCloseBtn" class="close-btn">
+            Close
+        </button>
+    </div>
+    <div id="mySkillDialog">
+        <h3>
+            my skills
+        </h3>
+        <div class="skill-logos">
+            <img alt="html logo" src="assets/logos/html_5.png" height="32" width="32">
+            <img alt="css logo" src="assets/logos/css_3.png" height="32" width="32">
+            <img alt="javascript logo" src="assets/logos/js.png" height="32" width="32">
+        </div>
+        <ul>
+            Currently learning...
+            <li>
+                To enhance my skills in UI/UX design
+            </li>
+            <li>
+                To master more advanced aspects of CSS.
+            </li>
+            <li>
+                Vanilla JavaScript
+            </li>
+        </ul>
+        <button id="mySkillDialogCloseBtn" class="close-btn">
+            Close
+        </button>
+    </div>
+    <div id="contact">
+        <h3>
+            how to contact me
+        </h3>
+        <div class="contact-links">
+            <img alt="linkedin logo" src="assets/logos/linkedin.png" width="32" height="32">
+            <a href="https://www.linkedin.com/in/panida-paethanom-8a6317239/" target="_blank">
+                My linkedin profile
+            </a>
+        </div>
+        <div class="contact-links">
+            <img alt="instagram logo" src="assets/logos/instagram.png" width="32" height="32">
+            <a href="https://www.instagram.com/chef_shots?igsh=MTkyNjJhYWUxcHhybg%3D%3D&utm_source=qr" target="_blank">
+                My photography showcase
+            </a>
+        </div>
+        <div class="email">
+            <p>
+                My Email:
+            </p>
+            <p>
+                panida.paethanom@gmail.com
+            </p>
+        </div>
+        <button id="contactCloseBtn" class="close-btn">
+            Close
+        </button>
+    </div>
+</main>
 </body>
 </html>
