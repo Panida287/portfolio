@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.btn {
+    background: none;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 4px 10px;
+    color: white;
+    font-family: "Lekton", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px aqua, inset 0 0 15px aqua;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(117deg, #07575C 0%, #122536 12.93%, #6B4CE8 26.48%, #1F183A 40.06%, #050417 59.32%, #381654 74.49%, #742BA0 85.81%, #CA69C6 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 50px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 24px;
+    background: rgba(179, 219, 255, 0.39);
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 auto 40px auto;
+}
+
+.name-upright {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px auto 0 auto;
+    position: relative;
+    top: 10px;
+    padding-right: 20px;
+}
+
+.name-upside-down {
+    color: #FAC6F8;
+    text-align: center;
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 4px 4px 0 rgba(51, 170, 221, 0.46);
+    transform: rotate(180deg) scaleX(-1);
+    height: 43px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    opacity: 0.5;
+}
+
+.overlay {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 770px) {
+    .container {
+        width: 90%;
+    }
+
+    .name-upright {
+        width: 90%;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        width: 98%;
+        height: 850px;
+    }
+
+    .name-upright {
+        width: 98%;
+        font-size: 16px;
+    }
+
+    .name-upside-down {
+        font-size: 16px;
+        height: 35px;
+    }
+}
