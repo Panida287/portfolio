@@ -146,5 +146,19 @@
         gap: 20px;
         align-items: center;
     }
+
+    .project-details {
+        margin: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .gif-container {
+        width: 300px;
+    }
+
+    .header {
+        margin: 0;
+    }
 }
 

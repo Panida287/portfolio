@@ -1,3 +1,8 @@
+main {
+    height: 100%;
+    margin: 0;
+}
+
 .contents {
     display: flex;
 }
@@ -82,7 +87,7 @@
 }
 
 #aboutMeDialog,
-#mySkillDialog,
+#mySkillsDialog,
 #contact {
     display: none;
     position: fixed;
@@ -100,12 +105,16 @@
     width: 80%;
 }
 
+#mySkillsDialog {
+    max-width: 500px;
+}
+
 #aboutMeDialog {
     text-align: center;
 }
 
 #contact,
-#mySkillDialog {
+#mySkillsDialog {
     display: none;
     flex-direction: column;
     align-items: center;
@@ -121,7 +130,7 @@
 }
 
 #contact h3,
-#mySkillDialog h3,
+#mySkillsDialog h3,
 #aboutMeDialog h3 {
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -133,13 +142,13 @@
     margin-bottom: 20px;
 }
 
-#mySkillDialog ul,
-#mySkillDialog li {
+#mySkillsDialog ul,
+#mySkilslDialog li {
     font-size: 16px;
     line-height: 2;
 }
 
-#mySkillDialog ul {
+#mySkillsDialog ul {
     margin-bottom: 20px;
 }
 
@@ -200,8 +209,8 @@
     }
 
     #aboutMeDialog p,
-    #mySkillDialog ul,
-    #mySkillDialog li,
+    #mySkillsDialog ul,
+    #mySkillsDialog li,
     #contact a,
     #contact p {
         font-size: 14px;
