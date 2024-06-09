@@ -1,6 +1,6 @@
 ## This is a portfolio1 that includes 3 of my projects during year 1 of my study at Noroff
 
-[Panida's portfloio](https://panida-portfolio.netlify.app)
+[Panida's portfolio](https://panida-portfolio.netlify.app)
 
 # Project 1 - SqaureEyes
 
