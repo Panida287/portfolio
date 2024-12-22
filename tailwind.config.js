@@ -1,14 +1,13 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
-  content: [
-    './src/**/*.{html,js}', // Adjust the paths to match your project structure
-    './public/index.html',
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
         neon: '#14f7ff',
+        primary: '#C62F94',
+        accent: '#33AADD',
       },
       boxShadow: {
         neon: '0 0 0.5em var(--tw-color-neon)',
@@ -20,6 +19,21 @@ export default {
         header: ['"Contrail One"', ...defaultTheme.fontFamily.sans], // Contrail One
         bigHeader: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono], // JetBrains Mono
       },
+      fontWeight: {
+        thin: '200',
+        regular: '400', // Add font weights if needed
+        medium: '500',
+        bold: '700',
+        black: '900',
+      },
+    },
+    screens: {
+      xs: '480px',
+      sm: '640px', // Small devices (e.g., tablets)
+      md: '768px', // Medium devices (e.g., small laptops)
+      lg: '1024px', // Large devices (e.g., desktops)
+      xl: '1280px', // Extra-large devices
+      '2xl': '1536px' // Double extra-large devices
     },
   },
   plugins: [],

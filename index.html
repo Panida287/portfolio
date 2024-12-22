@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script type="module" src="/src/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/23a7bf8149.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
+
 <body>
+<header class="header relative w-full">
+    <button
+            class="hamburger-btn absolute top-0 right-0 rounded-md text-white text-2xl px-2 py-1 m-4 hover:shadow-neon">
+        <i class="fa-light fa-bars"></i>
+    </button>
+    <nav class="mobile-nav text-white font-bigHeader font-thin text-xs p-4">
+        <ul class="nav-menu-dropdown flex-col absolute right-4 top-16 gap-4 px-4 py-4 shadow-neon rounded-lg w-fit transition-all duration-300 ease-in-out -translate-y-5 opacity-0">
+            <li>
+                <a href="/"
+                   class="block w-full px-2 py-2 rounded-full hover:bg-accent">
+                    <i class="fa-sharp fa-regular fa-house-blank pr-1"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#"
+                   class="block w-full px-2 py-2 rounded-full hover:bg-accent">
+                    <i class="fa-sharp fa-regular fa-rectangle-history pr-1"></i>
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="#"
+                   class="block w-full px-2 py-2 rounded-full hover:bg-accent">
+                    <i class="fa-sharp fa-regular fa-user pr-1"></i>
+                    About me
+                </a>
+            </li>
+            <li>
+                <a href="#"
+                   class="block w-full px-2 py-2 rounded-full hover:bg-accent">
+                    <i class="fa-sharp fa-regular fa-comment pr-1"></i>
+                    Contact me
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
 </body>
+
+<footer>
+</footer>
+
 </html>
