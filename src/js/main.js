@@ -1,2 +1,4 @@
-import '../css/styles.css'
-console.log("Vite is working!");
+import "../css/styles.css";
+import router from "./router/index.js";
+
+await router(window.location.pathname);

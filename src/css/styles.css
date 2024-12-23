@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Contrail+One&family=DotGothic16&family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Contrail+One:wght@200;400;500&family=DotGothic16&family=Inter:wght@200;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,14 +9,36 @@
     --neon: #14f7ff; /* Define the neon color variable globally */
 }
 
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 html {
+    overflow-x: hidden;
     background: linear-gradient(117deg, #1F183A 0%, #000 100%);
 }
 
 body {
-    height: 100vh;
-    display: grid;
     background: url("../../assets/images/background.png") 0 / 100% auto repeat-y;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 0.25em 1em;
+    border-radius: 3em;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    transition: color 100ms linear, box-shadow 100ms linear;
+}
+
+.button:hover {
+    text-shadow: 0 0 0.2em, 0 0 0.3em white;
+    box-shadow: 0 0 0.5em white;
 }
 
 .neon-button {
@@ -25,9 +47,8 @@ body {
     cursor: pointer;
     border: 2px solid var(--neon);
     padding: 0.25em 1em;
-    border-radius: 0.25em;
+    border-radius: 3em;
     font-family: 'Inter', sans-serif;
-    font-size: inherit;
     text-shadow: 0 0 0.2em #fff7, 0 0 0.3em var(--neon);
     box-shadow: inset 0 0 0.5em var(--neon), 0 0 0.5em var(--neon);
     color: var(--neon);
@@ -42,6 +63,7 @@ body {
 .neon-button::before {
     content: '';
     position: absolute;
+    border-radius: inherit;
     top: 140%;
     left: 0;
     width: 100%;
@@ -60,6 +82,7 @@ body {
 .neon-button::after {
     content: '';
     position: absolute;
+    border-radius: inherit;
     top: 0;
     left: 0;
     right: 0;
@@ -73,4 +96,12 @@ body {
 
 .neon-button:hover::after {
     opacity: 1;
+}
+
+.text-shadow-pink {
+    text-shadow: 2px 2px 6px rgba(198, 47, 148, 1);
+}
+
+.text-shadow-white {
+    text-shadow: 2px 2px 6px var(--neon);
 }
