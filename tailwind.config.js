@@ -30,12 +30,12 @@ export default {
       },
     },
     screens: {
-      xs: '480px',
-      sm: '640px', // Small devices (e.g., tablets)
-      md: '768px', // Medium devices (e.g., small laptops)
-      lg: '1024px', // Large devices (e.g., desktops)
-      xl: '1280px', // Extra-large devices
-      '2xl': '1536px' // Double extra-large devices
+      xs: '480px', // phone
+      sm: '500px', //
+      md: '640px', // Small devices (e.g., tablets)
+      lg: '768px', // Medium devices (e.g., small laptops)
+      xl: '1024px', // Large devices (e.g., desktops)
+      '2xl': '1286px' // Double extra-large devices
     },
   },
   plugins: [textShadowPlugin],

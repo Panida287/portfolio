@@ -15,6 +15,10 @@ html, body {
     padding: 0;
 }
 
+.bg-linear-gradient {
+    background: linear-gradient(117deg, #1F183A 0%, #000 100%);
+}
+
 html {
     overflow-x: hidden;
     background: linear-gradient(117deg, #1F183A 0%, #000 100%);
@@ -102,6 +106,20 @@ body {
     text-shadow: 2px 2px 6px rgba(198, 47, 148, 1);
 }
 
-.text-shadow-white {
+.text-shadow-neon {
     text-shadow: 2px 2px 6px var(--neon);
+}
+
+.link:hover::before {
+    content: "<";
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+.link:hover::after {
+    content: "/>";
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
 }
