@@ -1,4 +1,5 @@
 import defaultTheme from 'tailwindcss/defaultTheme';
+import textShadowPlugin from 'tailwindcss-textshadow';
 
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -8,6 +9,7 @@ export default {
         neon: '#14f7ff',
         primary: '#C62F94',
         accent: '#33AADD',
+        card: '#69B3CA',
       },
       boxShadow: {
         neon: '0 0 0.5em var(--tw-color-neon)',
@@ -36,5 +38,5 @@ export default {
       '2xl': '1536px' // Double extra-large devices
     },
   },
-  plugins: [],
+  plugins: [textShadowPlugin],
 };
