@@ -14,7 +14,7 @@
 }
 
 #squareEyes {
-    background: url("../assets/gif/square-eyes-img.png") no-repeat center / contain;
+    background: url("../assets/images/squareEyes/squreEyesShowCase.png") no-repeat center / contain;
     width: 100%;
     height: 100%;
 }
@@ -28,7 +28,7 @@
 }
 
 #matterMuseum {
-    background: url("../assets/gif/science-img.png") no-repeat center / contain;
+    background: url("../assets/images/scienceMuseum/museumShowCase.png") no-repeat center / contain;
     width: 100%;
     height: 100%;
 }
@@ -42,7 +42,7 @@
 }
 
 #frame {
-    background: url("../assets/gif/frame-img.png") no-repeat center / contain;
+    background: url("../assets/images/frame/frameShowCase.png") no-repeat center / contain;
     width: 100%;
     height: 100%;
 }

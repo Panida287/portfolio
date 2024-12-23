@@ -8,7 +8,7 @@ main {
 }
 
 .picture {
-    background: url("../assets/picture.png") center/contain no-repeat;
+    background: url("../assets/images/panida.png") center/contain no-repeat;
     width: 40%;
     top: 100px;
 }
