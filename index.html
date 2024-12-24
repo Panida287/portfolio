@@ -124,8 +124,78 @@
                 Some of my favorite projects.
             </p>
         </div>
-        <div class="carousel">
+        <h3 class="sr-only">featured projects carousel</h3>
+        <div class="carousel-wrapper mb-4 w-full">
+            <ul class="carousel">
+                <li class="card flex flex-col justify-center items-center">
+                    <div class="project-1 flex flex-col gap-4" draggable="false">
+                        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="project 1" class="w-80 h-80 object-cover">
+                        <div class="project-description flex flex-col justify-center items-start gap-4">
+                            <h3 class="font-header text-white text-xl">
+                                Project 1
+                            </h3>
+                            <p class="project-year font-paragraph text-white">
+                                2024
+                            </p>
+                            <span class="button-container">
+                                <a href="#" class="button">
+                                    View project
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="card flex flex-col justify-center items-center">
+                    <div class="project-2 flex flex-col gap-4" draggable="false">
+                        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="project 1" class="w-80 h-80 object-cover">
+                        <div class="project-description flex flex-col justify-center items-start gap-4">
+                            <h3 class="font-header text-white text-xl">
+                                Project 2
+                            </h3>
+                            <p class="project-year font-paragraph text-white">
+                                2024
+                            </p>
+                            <span class="button-container">
+                                <a href="#" class="button">
+                                    View project
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="card flex flex-col justify-center items-center">
+                    <div class="project-3 flex flex-col gap-4" draggable="false">
+                        <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="project 1" class="w-80 h-80 object-cover">
+                        <div class="project-description flex flex-col justify-center items-start gap-4">
+                            <h3 class="font-header text-white text-xl">
+                                Project 3
+                            </h3>
+                            <p class="project-year font-paragraph text-white">
+                                2024
+                            </p>
+                            <span class="button-container">
+                                <a href="#" class="button">
+                                    View project
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
+        <div class="carousel-navigation carets my-8 w-full flex justify-center items-center gap-20">
+            <button class="carousel-btn prev" id="left" aria-label="carousel-button-previous">
+                <i class="fa-solid fa-circle-chevron-left text-white text-5xl transition-colors duration-200 hover:text-primary "></i>
+            </button>
+            <button class="carousel-btn next" id="right" aria-label="carousel-button-next">
+                <i class="fa-solid fa-circle-chevron-right text-white text-5xl transition-colors duration-200 hover:text-primary"></i>
+            </button>
+        </div>
+        <span class="button-container flex justify-end items-center pr-4">
+            <a href="#" class="text-white font-header text-md pr-4 text-shadow-neon hover:text-neon">
+            View more projects >
+            </a>
+        </span>
     </section>
     <section class="about-me">
         <div class="header-elements my-10 bg-card/20 w-full flex flex-col gap-2 justify-center items-center p-4">
