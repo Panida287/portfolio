@@ -110,16 +110,53 @@ body {
     text-shadow: 2px 2px 6px var(--neon);
 }
 
-.link:hover::before {
-    content: "<";
+.link::before,
+.link::after {
+    content: "<"; /* Add the initial content */
     font-family: inherit;
     color: inherit;
     font-size: inherit;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.8); /* Initial scale for smooth effect */
+    transition: all 200ms ease; /* Smooth transition */
 }
 
+.link::after {
+    content: "/>"; /* Add closing content */
+}
+
+.link:hover::before,
 .link:hover::after {
-    content: "/>";
-    font-family: inherit;
-    color: inherit;
-    font-size: inherit;
+    opacity: 1; /* Fully visible on hover */
+    transform: scale(1); /* Scale back to original size */
+}
+
+/*Carousel*/
+
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 500px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.dragging {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+
+.carousel .dragging card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel-card {
+    scroll-snap-align: start;
 }
